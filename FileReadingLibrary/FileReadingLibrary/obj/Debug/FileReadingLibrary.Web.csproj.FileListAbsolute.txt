@@ -95,3 +95,9 @@ C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLi
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\obj\Debug\FileReadingLibrary.Web.csproj.CopyComplete
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\obj\Debug\FileReadingLibrary.dll
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\obj\Debug\FileReadingLibrary.pdb
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\bin\FileReadingLibrary.Data.dll
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\bin\FileReadingLibrary.Model.dll
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\bin\FileReadingLibrary.Data.pdb
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\bin\FileReadingLibrary.Data.dll.config
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\bin\FileReadingLibrary.Model.pdb
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary\bin\FileReadingLibrary.Model.dll.config

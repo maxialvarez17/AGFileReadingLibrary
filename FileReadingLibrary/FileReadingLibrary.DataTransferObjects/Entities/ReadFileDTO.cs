@@ -5,10 +5,10 @@ using System.Web;
 
 namespace FileReadingLibrary.DataTransferObjects.Entities
 {
-    public class FileDTO
+    public class ReadFileDTO
     {
-        public int Id { get; set; }
-
         public string Name { get; set; }
+
+        public string Content { get; set; }
     }
 }

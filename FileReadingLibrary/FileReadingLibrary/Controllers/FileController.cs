@@ -1,4 +1,6 @@
 ﻿using FileReadingLibrary.DataTransferObjects.Entities;
+using FileReadingLibrary.Services.Implementations;
+using FileReadingLibrary.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +11,27 @@ namespace FileReadingLibrary.Controllers
 {
     public class FileController : Controller
     {
+        private readonly IFileService fileService;
+
+        public FileController()
+        {
+            this.fileService = new FileService();
+        }
+
         // GET: File
         public ActionResult Index()
         {
-            var fileDTOs = new List<FileDTO>();
+            var files = this.fileService.GetAllFiles();
 
-            return View(fileDTOs);
+            return View(files);
+        }
+
+        // GET: Flight/Read/5
+        public ActionResult Read(int id)
+        {
+            var readFileDTO = this.fileService.ReadFile(id);
+
+            return View(readFileDTO);
         }
     }
 }
