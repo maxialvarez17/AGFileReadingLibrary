@@ -82,12 +82,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\Others\FileReaderFactory.cs" />
+    <Compile Include="Implementations\Others\JSONFileDecryptor.cs" />
     <Compile Include="Implementations\Others\JSONFileReaderStrategy.cs" />
     <Compile Include="Implementations\Others\TXTFileDecryptor.cs" />
     <Compile Include="Implementations\Others\TXTFileReaderStrategy.cs" />
     <Compile Include="Implementations\Others\XMLFileDecryptor.cs" />
     <Compile Include="Implementations\Others\XMLFileReaderStrategy.cs" />
     <Compile Include="Implementations\Services\FileService.cs" />
+    <Compile Include="Interfaces\Others\IJSONFileDecryptor.cs" />
     <Compile Include="Interfaces\Others\ITXTFileDecryptor.cs" />
     <Compile Include="Interfaces\Others\IFileReaderStrategy.cs" />
     <Compile Include="Interfaces\Others\IFileReaderFactory.cs" />

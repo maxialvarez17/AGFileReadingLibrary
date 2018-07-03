@@ -23,7 +23,7 @@ namespace FileReadingLibrary.Services.Implementations.Others
                     fileReaderStrategy = new XMLFileReaderStrategy(file);
                     break;
                 case FileExtension.Json:
-                    fileReaderStrategy = new JSONFileReaderStrategy();
+                    fileReaderStrategy = new JSONFileReaderStrategy(file);
                     break;
                 default:
                     break;
