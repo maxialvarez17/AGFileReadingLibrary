@@ -21,7 +21,7 @@ namespace FileReadingLibrary.Services.Implementations.Others
         // NOTE: I assume all the txt files have just a line
         public string Read()
         {
-            string[] fileLines = File.ReadAllLines(this.FilePath);
+            var fileLines = File.ReadAllLines(this.FilePath);
 
             return this.file.IsEncrypted
                 ? this.txtFileDecryptor.Decrypt(fileLines)

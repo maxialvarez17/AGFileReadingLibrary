@@ -1,19 +1,39 @@
-﻿using FileReadingLibrary.Services.Interfaces.Others;
+﻿using FileReadingLibrary.Model.Entities;
+using FileReadingLibrary.Services.Interfaces.Others;
+using System.IO;
+using System.Text;
+using System.Xml;
 
 namespace FileReadingLibrary.Services.Implementations.Others
 {
     public class XMLFileReaderStrategy : IFileReaderStrategy
     {
+        private readonly FileMetadata file;
+        private readonly IXMLFileDecryptor xmlFileDecryptor;
+
+        public XMLFileReaderStrategy(FileMetadata file)
+        {
+            this.file = file;
+
+            this.xmlFileDecryptor = new XMLFileDecryptor();
+        }
+
         public string FilePath { get; set; }
 
-        // NOTE: XML files will be displayed as stringifyed json
         public string Read()
         {
-            //XmlDocument doc = new XmlDocument();
-            //doc.LoadXml(this.FilePath);
-            //return doc.OuterXml;
+            if (this.file.IsEncrypted)
+            {
+                var fileLines = File.ReadAllLines(this.FilePath);
 
-            return "This is the strategy for XML files";
+                return this.xmlFileDecryptor.Decrypt(fileLines); 
+            }
+
+            var doc = new XmlDocument();
+
+            doc.Load(this.FilePath);
+
+            return doc.OuterXml;
         }
     }
 }

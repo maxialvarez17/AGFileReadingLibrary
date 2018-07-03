@@ -84,11 +84,13 @@
     <Compile Include="Implementations\Others\FileReaderFactory.cs" />
     <Compile Include="Implementations\Others\TXTFileDecryptor.cs" />
     <Compile Include="Implementations\Others\TXTFileReaderStrategy.cs" />
+    <Compile Include="Implementations\Others\XMLFileDecryptor.cs" />
     <Compile Include="Implementations\Others\XMLFileReaderStrategy.cs" />
     <Compile Include="Implementations\Services\FileService.cs" />
     <Compile Include="Interfaces\Others\ITXTFileDecryptor.cs" />
     <Compile Include="Interfaces\Others\IFileReaderStrategy.cs" />
     <Compile Include="Interfaces\Others\IFileReaderFactory.cs" />
+    <Compile Include="Interfaces\Others\IXMLFileDecryptor.cs" />
     <Compile Include="Interfaces\Services\IFileService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

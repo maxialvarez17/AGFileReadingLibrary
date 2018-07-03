@@ -20,7 +20,7 @@ namespace FileReadingLibrary.Services.Implementations.Others
                     fileReaderStrategy = new TXTFileReaderStrategy(file);
                     break;
                 case FileExtension.Xml:
-                    fileReaderStrategy = new XMLFileReaderStrategy();
+                    fileReaderStrategy = new XMLFileReaderStrategy(file);
                     break;
                 default:
                     break;

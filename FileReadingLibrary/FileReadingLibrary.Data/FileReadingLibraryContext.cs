@@ -16,10 +16,12 @@ namespace FileReadingLibrary.Data
                 {
                     new FileMetadata() { Id = 1, Name = "TxtFile1.txt", Extension = FileExtension.Txt, IsEncrypted = false },
                     new FileMetadata() { Id = 2, Name = "TxtFile2.txt", Extension = FileExtension.Txt, IsEncrypted = false },
-                    new FileMetadata() { Id = 3, Name = "XmlFile1.txt", Extension = FileExtension.Xml, IsEncrypted = false },
-                    new FileMetadata() { Id = 4, Name = "XmlFile2.txt", Extension = FileExtension.Xml, IsEncrypted = false },
+                    new FileMetadata() { Id = 3, Name = "XmlFile1.xml", Extension = FileExtension.Xml, IsEncrypted = false },
+                    new FileMetadata() { Id = 4, Name = "XmlFile2.xml", Extension = FileExtension.Xml, IsEncrypted = false },
                     new FileMetadata() { Id = 5, Name = "EncryptedTxtFile1.txt", Extension = FileExtension.Txt, IsEncrypted = true },
                     new FileMetadata() { Id = 6, Name = "EncryptedTxtFile2.txt", Extension = FileExtension.Txt, IsEncrypted = true },
+                    new FileMetadata() { Id = 7, Name = "EncryptedXmlFile1.xml", Extension = FileExtension.Xml, IsEncrypted = true },
+                    new FileMetadata() { Id = 8, Name = "EncryptedXmlFile2.xml", Extension = FileExtension.Xml, IsEncrypted = true },
                 };
             }
         }
