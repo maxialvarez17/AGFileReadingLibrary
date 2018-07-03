@@ -1,6 +1,6 @@
 ﻿using FileReadingLibrary.DataTransferObjects.Entities;
-using FileReadingLibrary.Services.Implementations;
-using FileReadingLibrary.Services.Interfaces;
+using FileReadingLibrary.Services.Implementations.Services;
+using FileReadingLibrary.Services.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -14,8 +14,10 @@ namespace FileReadingLibrary.Data
             {
                 return new List<FileMetadata>()
                 {
-                    new FileMetadata() { Id = 1, Name = "TxtFile1.txt", Extension = "txt" },
-                    new FileMetadata() { Id = 2, Name = "TxtFile2.txt", Extension = "txt" }
+                    new FileMetadata() { Id = 1, Name = "TxtFile1.txt", Extension = FileExtension.Txt },
+                    new FileMetadata() { Id = 2, Name = "TxtFile2.txt", Extension = FileExtension.Txt },
+                    new FileMetadata() { Id = 3, Name = "XmlFile1.txt", Extension = FileExtension.Xml },
+                    new FileMetadata() { Id = 4, Name = "XmlFile2.txt", Extension = FileExtension.Xml }
                 };
             }
         }
