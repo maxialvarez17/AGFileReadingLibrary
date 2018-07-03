@@ -89,12 +89,14 @@
     <Compile Include="Implementations\Others\XMLFileDecryptor.cs" />
     <Compile Include="Implementations\Others\XMLFileReaderStrategy.cs" />
     <Compile Include="Implementations\Services\FileService.cs" />
+    <Compile Include="Implementations\Services\SettingService.cs" />
     <Compile Include="Interfaces\Others\IJSONFileDecryptor.cs" />
     <Compile Include="Interfaces\Others\ITXTFileDecryptor.cs" />
     <Compile Include="Interfaces\Others\IFileReaderStrategy.cs" />
     <Compile Include="Interfaces\Others\IFileReaderFactory.cs" />
     <Compile Include="Interfaces\Others\IXMLFileDecryptor.cs" />
     <Compile Include="Interfaces\Services\IFileService.cs" />
+    <Compile Include="Interfaces\Services\ISettingService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

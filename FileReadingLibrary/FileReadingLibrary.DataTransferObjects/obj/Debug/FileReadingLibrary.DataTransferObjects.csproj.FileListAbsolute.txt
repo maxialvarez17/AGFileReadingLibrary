@@ -55,3 +55,4 @@ C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLi
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.csproj.CopyComplete
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.dll
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.pdb
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.csprojResolveAssemblyReference.cache

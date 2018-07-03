@@ -55,3 +55,4 @@ C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLi
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.csproj.CopyComplete
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.dll
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.pdb
+C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.csprojResolveAssemblyReference.cache

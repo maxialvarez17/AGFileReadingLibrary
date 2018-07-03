@@ -16,7 +16,7 @@ namespace FileReadingLibrary
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "File", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Setting", action = "Start", id = UrlParameter.Optional }
             );
         }
     }

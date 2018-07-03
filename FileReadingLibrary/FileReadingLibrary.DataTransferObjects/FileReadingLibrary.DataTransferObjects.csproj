@@ -80,6 +80,8 @@
   <ItemGroup>
     <Compile Include="Entities\FileDTO.cs" />
     <Compile Include="Entities\ReadFileDTO.cs" />
+    <Compile Include="Settings\ApplicationSettingsDTO.cs" />
+    <Compile Include="Settings\UserDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
