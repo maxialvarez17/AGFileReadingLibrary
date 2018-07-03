@@ -51,7 +51,6 @@ C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLi
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.csprojResolveAssemblyReference.cache
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.csproj.CoreCompileInputs.cache
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.csproj.CopyComplete
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.DataTransferObjects\obj\Debug\FileReadingLibrary.DataTransferObjects.dll

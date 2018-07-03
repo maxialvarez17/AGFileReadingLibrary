@@ -51,7 +51,6 @@ C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLi
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.csprojResolveAssemblyReference.cache
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.csproj.CoreCompileInputs.cache
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.csproj.CopyComplete
 C:\Users\Maximiliano\Desktop\FileReadingLibrary\FileReadingLibrary\FileReadingLibrary.Model\obj\Debug\FileReadingLibrary.Model.dll

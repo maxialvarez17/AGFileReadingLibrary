@@ -9,5 +9,6 @@ namespace FileReadingLibrary.Model.Entities
     {
         public const string Txt = "txt";
         public const string Xml = "xml";
+        public const string Json = "json";
     }
 }

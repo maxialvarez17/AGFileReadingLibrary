@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\Others\FileReaderFactory.cs" />
+    <Compile Include="Implementations\Others\JSONFileReaderStrategy.cs" />
     <Compile Include="Implementations\Others\TXTFileDecryptor.cs" />
     <Compile Include="Implementations\Others\TXTFileReaderStrategy.cs" />
     <Compile Include="Implementations\Others\XMLFileDecryptor.cs" />

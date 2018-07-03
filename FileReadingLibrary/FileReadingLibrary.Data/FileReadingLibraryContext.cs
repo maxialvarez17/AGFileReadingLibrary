@@ -22,6 +22,8 @@ namespace FileReadingLibrary.Data
                     new FileMetadata() { Id = 6, Name = "EncryptedTxtFile2.txt", Extension = FileExtension.Txt, IsEncrypted = true },
                     new FileMetadata() { Id = 7, Name = "EncryptedXmlFile1.xml", Extension = FileExtension.Xml, IsEncrypted = true },
                     new FileMetadata() { Id = 8, Name = "EncryptedXmlFile2.xml", Extension = FileExtension.Xml, IsEncrypted = true },
+                    new FileMetadata() { Id = 9, Name = "JsonFile1.json", Extension = FileExtension.Json, IsEncrypted = false },
+                    new FileMetadata() { Id = 10, Name = "JsonFile2.json", Extension = FileExtension.Json, IsEncrypted = false },
                 };
             }
         }
