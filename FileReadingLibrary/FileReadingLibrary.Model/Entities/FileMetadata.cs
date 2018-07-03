@@ -12,5 +12,7 @@ namespace FileReadingLibrary.Model.Entities
         public string Name { get; set; }
 
         public string Extension { get; set; }
+
+        public bool IsEncrypted { get; set; }
     }
 }

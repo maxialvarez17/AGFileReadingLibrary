@@ -1,7 +1,4 @@
-﻿using FileReadingLibrary.Model.Entities;
-using FileReadingLibrary.Services.Interfaces.Others;
-using Newtonsoft.Json;
-using System.Xml;
+﻿using FileReadingLibrary.Services.Interfaces.Others;
 
 namespace FileReadingLibrary.Services.Implementations.Others
 {

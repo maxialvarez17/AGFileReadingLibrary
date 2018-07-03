@@ -82,9 +82,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementations\Others\FileReaderFactory.cs" />
+    <Compile Include="Implementations\Others\TXTFileDecryptor.cs" />
     <Compile Include="Implementations\Others\TXTFileReaderStrategy.cs" />
     <Compile Include="Implementations\Others\XMLFileReaderStrategy.cs" />
     <Compile Include="Implementations\Services\FileService.cs" />
+    <Compile Include="Interfaces\Others\ITXTFileDecryptor.cs" />
     <Compile Include="Interfaces\Others\IFileReaderStrategy.cs" />
     <Compile Include="Interfaces\Others\IFileReaderFactory.cs" />
     <Compile Include="Interfaces\Services\IFileService.cs" />
@@ -104,6 +106,7 @@
       <Name>FileReadingLibrary.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

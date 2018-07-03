@@ -17,7 +17,7 @@ namespace FileReadingLibrary.Services.Implementations.Others
             switch (file.Extension)
             {
                 case FileExtension.Txt:
-                    fileReaderStrategy = new TXTFileReaderStrategy();
+                    fileReaderStrategy = new TXTFileReaderStrategy(file);
                     break;
                 case FileExtension.Xml:
                     fileReaderStrategy = new XMLFileReaderStrategy();
