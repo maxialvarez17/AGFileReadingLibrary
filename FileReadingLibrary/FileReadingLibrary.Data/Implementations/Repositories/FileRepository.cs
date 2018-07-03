@@ -12,12 +12,12 @@ namespace FileReadingLibrary.Data.Implementations.Repositories
     public class FileRepository : IReadOnlyRepository<FileMetadata>
     {
         private readonly FileReadingLibraryContext fileReadingLibraryContext;
-        private readonly IFileRoleBaseInterceptor fileRoleBaseInterceptor;
+        private readonly IFileRoleBasedInterceptor fileRoleBasedInterceptor;
 
         public FileRepository()
         {
             this.fileReadingLibraryContext = new FileReadingLibraryContext();
-            this.fileRoleBaseInterceptor = new FileRoleBaseInterceptor();
+            this.fileRoleBasedInterceptor = new FileRoleBasedInterceptor();
         }
 
         public FileMetadata Get(int id)
@@ -31,7 +31,7 @@ namespace FileReadingLibrary.Data.Implementations.Repositories
         {
             var files = this.fileReadingLibraryContext.Files;
 
-            this.fileRoleBaseInterceptor.Intercept(ref files); 
+            this.fileRoleBasedInterceptor.Intercept(ref files); 
 
             return files;
         }

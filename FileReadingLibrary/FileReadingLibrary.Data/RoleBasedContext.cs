@@ -7,22 +7,22 @@ using System.Web;
 
 namespace FileReadingLibrary.Data
 {
-    public class RoleBaseContext
+    public class RoleBasedContext
     {
-        private static RoleBaseContext _instance;
+        private static RoleBasedContext _instance;
 
-        private RoleBaseContext()
+        private RoleBasedContext()
         {
             this.FileReadingLibrarySettings = new FileReadingLibrarySettings();
         }
 
-        public static RoleBaseContext Instance
+        public static RoleBasedContext Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new RoleBaseContext();
+                    _instance = new RoleBasedContext();
                 }
 
                 return _instance;

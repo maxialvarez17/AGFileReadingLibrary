@@ -9,11 +9,11 @@ namespace FileReadingLibrary.Data.Implementations.Repositories
 {
     public class FileReadingLibrarySettingsRepository : IRepository<FileReadingLibrarySettings>
     {
-        private readonly RoleBaseContext roleBaseContext;
+        private readonly RoleBasedContext roleBaseContext;
 
         public FileReadingLibrarySettingsRepository()
         {
-            this.roleBaseContext = RoleBaseContext.Instance;
+            this.roleBaseContext = RoleBasedContext.Instance;
         }
 
         public void Delete(int id)

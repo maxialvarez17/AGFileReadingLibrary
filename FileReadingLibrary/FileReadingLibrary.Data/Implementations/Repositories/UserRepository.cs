@@ -9,11 +9,11 @@ namespace FileReadingLibrary.Data.Implementations.Repositories
 {
     public class UserRepository : IReadOnlyRepository<User>
     {
-        private readonly RoleBaseContext roleBaseContext;
+        private readonly RoleBasedContext roleBaseContext;
 
         public UserRepository()
         {
-            this.roleBaseContext = RoleBaseContext.Instance;
+            this.roleBaseContext = RoleBasedContext.Instance;
         }
 
         public User Get(int id)

@@ -82,12 +82,12 @@
     <Compile Include="Implementations\Repositories\FileRepository.cs" />
     <Compile Include="Implementations\Repositories\FileReadingLibrarySettingsRepository.cs" />
     <Compile Include="Implementations\Repositories\UserRepository.cs" />
-    <Compile Include="Implementations\Security\FileRoleBaseInterceptor.cs" />
+    <Compile Include="Implementations\Security\FileRoleBasedInterceptor.cs" />
     <Compile Include="Interfaces\Repositories\IReadOnlyRepository.cs" />
     <Compile Include="Interfaces\Repositories\IRepository.cs" />
-    <Compile Include="Interfaces\Security\IFileRoleBaseInterceptor.cs" />
+    <Compile Include="Interfaces\Security\IFileRoleBasedInterceptor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoleBaseContext.cs" />
+    <Compile Include="RoleBasedContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FileReadingLibrary.Model\FileReadingLibrary.Model.csproj">

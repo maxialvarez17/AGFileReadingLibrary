@@ -7,20 +7,20 @@ using System.Web;
 
 namespace FileReadingLibrary.Data.Implementations.Security
 {
-    public class FileRoleBaseInterceptor : IFileRoleBaseInterceptor
+    public class FileRoleBasedInterceptor : IFileRoleBasedInterceptor
     {
-        public RoleBaseContext roleBaseContext;
+        public RoleBasedContext roleBasedContext;
 
-        public FileRoleBaseInterceptor()
+        public FileRoleBasedInterceptor()
         {
-            this.roleBaseContext = RoleBaseContext.Instance;
+            this.roleBasedContext = RoleBasedContext.Instance;
         }
 
         public void Intercept(ref ICollection<FileMetadata> files)
         {
-            var loggedUserId = this.roleBaseContext.FileReadingLibrarySettings.LoggedUserId;
+            var loggedUserId = this.roleBasedContext.FileReadingLibrarySettings.LoggedUserId;
 
-            var loggedUserRoles = this.roleBaseContext.UserRoles
+            var loggedUserRoles = this.roleBasedContext.UserRoles
                 .Where(x => x.UserId.Equals(loggedUserId))
                 .Select(x => x.RoleId)
                 .ToList();

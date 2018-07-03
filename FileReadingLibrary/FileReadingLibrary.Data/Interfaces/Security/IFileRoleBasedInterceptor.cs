@@ -6,7 +6,7 @@ using System.Web;
 
 namespace FileReadingLibrary.Data.Interfaces.Security
 {
-    public interface IFileRoleBaseInterceptor
+    public interface IFileRoleBasedInterceptor
     {
         void Intercept(ref ICollection<FileMetadata> files);
     }
